@@ -1,0 +1,57 @@
+/*
+Theme Name: FoodKa
+Theme URI: http://themefie.com/foodka
+Author: Themefie
+Author URI: https://themefie.com
+Description: Foodka - Food Ordering, Delivery & Restuarent Template
+Version: 1.0.0
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Global
+    ## Global
+    ## Mixins
+    ## Variables
+    ## Common
+
+# Sections
+    ## Nav Bar
+    ## Banner
+    ## Brand Area
+    ## Footer
+    ## Widgets
+
+# Elements
+    ## accordion
+    ## filter
+    ## apartment
+    ## blog
+    ## city
+    ## feature
+    ## gallery
+    ## intro
+    ## main-search
+    ## pricing
+    ## service
+    ## team
+    ## user-list
+
+--------------------------------------------------------------*/
+
+//== Global Design
+@import "global/mixins";
+@import "global/variables";
+@import "global/global";
+@import "global/common";
+
+//== Sections
+@import "sections/navbar";
+@import "sections/content";
+@import "sections/blog";
+@import "sections/shop";
+@import "sections/widgets";
+@import "sections/footer";
+@import "sections/home-2";
+@import "sections/home-3";
+
