@@ -27,22 +27,24 @@
 
 </head>
 <body class='sc5 home-2'>
-    <!-- preloader area start -->
-    <div class="preloader" id="preloader">
-        <div class="preloader-inner">
-            <div id="wave1">
-            </div>
-            <div class="spinner">
-                <div class="dot1"></div>
-                <div class="dot2"></div>
-            </div>
+<!-- preloader area start -->
+<div class="preloader" id="preloader">
+    <div class="preloader-inner">
+        <div id="wave1">
+        </div>
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
         </div>
     </div>
-    <!-- preloader area end -->
+</div>
+<!-- preloader area end -->
+
     <!-- navbar start -->
     <header class="navbar-area">
         <nav class="navbar navbar-expand-lg">
             <div class="container nav-container">
+                <!-- меню для мобильных-->
                 <div class="responsive-mobile-menu">
                     <button class="menu toggle-btn d-block d-lg-none" data-target="#themefie_main_menu"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -50,100 +52,85 @@
                         <span class="icon-right"></span>
                     </button>
                 </div>
+                <!-- end меню для мобильных-->
+
                 <div class="collapse navbar-collapse" id="themefie_main_menu">
                     <ul class="navbar-nav menu-open">
-                        <li class="current-menu-item menu-item-has-children">
-                            <a href="home-1.html">HOME</a>
-                            <ul class="sub-menu ps-0">
-                                <li><a href="home-1.html">Home 01</a></li>
-                                <li><a href="home-2.html">Home 02</a></li>
-                                <li><a href="home-3.html">Home 03</a></li>
-                            </ul>
-                        </li>
-                        <li class="current-menu-item menu-item-has-children">
-                            <a href="#">PAGES</a>
-                            <ul class="sub-menu ps-0">
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-details.html">Blog Details</a></li>
-                                <li><a href="menu.html">Menu</a></li>
-                                <li><a href="menu-list.html">Menu List</a></li>
-                                <li><a href="shop.html">Shop</a></li>
-                                <li><a href="single-product.html">Shop Details</a></li>
-                                <li><a href="cart.html">Cart</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                            </ul>
+                        <li>
+                            <a href="#menu">МЕНЮ</a>
                         </li>
                         <li>
-                            <a href="about.html">ABOUT US</a>
+                            <a href="#complex">КОМПЛЕКСЫ</a>
                         </li>
                         <li>
-                            <a href="contact.html">CONTACTS</a>
+                            <a href="#sales">АКЦИИ</a>
+                        </li>
+                        <li>
+                            <a href="#contacts">КОНТАКТЫ</a>
                         </li>
                     </ul>
                 </div>
+                <!-- LOGO -->
                 <div class="logo">
-                    <a class="main-logo" href="home-1.html"><img src="assets/img/logo.png" alt="img"></a>
+                    <a class="main-logo"><img src="../assets/img/logo.png" alt="img"></a>
                 </div>
                 <div class="nav-right-part nav-right-part-mobile">
                     <ul>
-                        <li><a class="search" href="#"><i class="ri-search-line"></i></a>
-                        </li>
                         <li class="phone-contact d-md-block d-none"><i class="ri-phone-fill float-start"></i>
-                            +997 509 153 849
-                        </li>
-                        <li class="menu-cart"><a href="cart.html">CART <span>1</span></a></li>
-                        <li>49.50 $</li>
+                            +7 (812) 648-40-00
                     </ul>
                 </div>
+                <!-- END LOGO -->
+
+                <!-- BUSCKET-->
                 <div class="nav-right-part nav-right-part-desktop">
                     <ul>
-                        <li><a class="search" href="#"><i class="ri-search-line"></i></a>
-                        </li>
                         <li class="phone-contact"><i class="ri-phone-fill float-start"></i>
-                            +997 509 153 849
+                            +7 (812) 648-40-00
                         </li>
-                        <li class="menu-cart"><a href="cart.html">CART <span>1</span></a></li>
-                        <li>49.50 $</li>
+                        <li></li>
+                        <li>ПН-ВС: 08:00  - 24:00 </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+    <!-- END BUSCKET-->
+
     <!-- navbar end -->
-
-
-
-
 
 
     <!-- product Area Start-->
     <section class="product-area pd-bottom-90">
+        <a name="menu"></a>
+        <div class="product-area pd-upper-115"> <!-- область под плашкой-->
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="section-title text-center">
-                        <h3 class="sub-title">Our signature</h3>
-                        <h2 class="title">Delicious Deals for Delicious Meals</h2>
+                        <h3 class="sub-title">Menu A La Carte</h3>
+                        <h2 class="title">На вкус и цвет товарищи есть</h2>
                     </div>
                     <ul class="product-nav style-2 nav nav-pills" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link active" id="pills-ramen-tab" data-bs-toggle="pill" data-bs-target="#pills-ramen" type="button" role="tab" aria-controls="pills-ramen" aria-selected="true"><img src="../assets/img/category/1.png" alt="img">Ramen</button>
+                          <button class="nav-link active" id="pills-ramen-tab" data-bs-toggle="pill" data-bs-target="#pills-ramen" type="button" role="tab" aria-controls="pills-ramen" aria-selected="true"><img src="../assets/img/category/1.png" alt="img">Закуски</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-pizza-tab" data-bs-toggle="pill" data-bs-target="#pills-pizza" type="button" role="tab" aria-controls="pills-pizza" aria-selected="false"><img src="../assets/img/category/2.png" alt="img">Pizza</button>
+                          <button class="nav-link" id="pills-pizza-tab" data-bs-toggle="pill" data-bs-target="#pills-pizza" type="button" role="tab" aria-controls="pills-pizza" aria-selected="false"><img src="../assets/img/category/2.png" alt="img">Салаты</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-burger-tab" data-bs-toggle="pill" data-bs-target="#pills-burger" type="button" role="tab" aria-controls="pills-burger" aria-selected="false"><img src="../assets/img/category/3.png" alt="img">Burger</button>
+                          <button class="nav-link" id="pills-burger-tab" data-bs-toggle="pill" data-bs-target="#pills-burger" type="button" role="tab" aria-controls="pills-burger" aria-selected="false"><img src="../assets/img/category/3.png" alt="img">Супы</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-french-fry-tab" data-bs-toggle="pill" data-bs-target="#pills-french-fry" type="button" role="tab" aria-controls="pills-french-fry" aria-selected="false"><img src="../assets/img/category/4.png" alt="img">French fries</button>
+                            <button class="nav-link" id="pills-french-fry-tab" data-bs-toggle="pill" data-bs-target="#pills-french-fry" type="button" role="tab" aria-controls="pills-french-fry" aria-selected="false"><img src="../assets/img/category/4.png" alt="img">Горячее</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-fast-food-tab" data-bs-toggle="pill" data-bs-target="#pills-fast-food" type="button" role="tab" aria-controls="pills-fast-food" aria-selected="false"><img src="../assets/img/category/5.png" alt="img">Fast food</button>
+                            <button class="nav-link" id="pills-fast-food-tab" data-bs-toggle="pill" data-bs-target="#pills-fast-food" type="button" role="tab" aria-controls="pills-fast-food" aria-selected="false"><img src="../assets/img/category/5.png" alt="img">Гарниры</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-drinks-tab" data-bs-toggle="pill" data-bs-target="#pills-drinks" type="button" role="tab" aria-controls="pills-drinks" aria-selected="false"><img src="../assets/img/category/6.png" alt="img">Soft drinks</button>
+                            <button class="nav-link" id="pills-drinks-tab" data-bs-toggle="pill" data-bs-target="#pills-drinks" type="button" role="tab" aria-controls="pills-drinks" aria-selected="false"><img src="../assets/img/category/6.png" alt="img">Десерты</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
                         </li>
                     </ul>
                 </div>
@@ -959,16 +946,19 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
     <!-- product Area End -->
+
     <!-- populer Area Start-->
     <section class="populer-area pd-bottom-90">
+        <a name="complex"></a>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="section-title text-center">
-                        <h3 class="sub-title">Our signature</h3>
-                        <h2 class="title">Popular Dishes</h2>
+                        <h3 class="sub-title">Complex Breakfast/Lunch/Dinner</h3>
+                        <h2 class="title">Комплексное меню</h2>
                     </div>
                 </div>
             </div>
@@ -1069,14 +1059,14 @@
 
 
     <!-- instagram Area Start-->
+<a name="sales"></a>
     <section class="instagram-area pd-bottom-115">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <div class="section-title text-center">
-                        <h3 class="sub-title">What we make
-                        </h3>
-                        <h2 class="title">Our Gallery On Instagram </h2>
+                        <h3 class="sub-title">Complex Breakfast/Lunch/Dinner</h3>
+                        <h2 class="title">Акции</h2>
                     </div>
                 </div>
             </div>
@@ -1111,6 +1101,7 @@
 
     <!-- footer area start -->
     <footer class="footer-area-2 pd-top-100">
+        <a name="contacts"></a>
         <div class="footer-inner padding-top-100 padding-bottom-65">
             <div class="container">
                 <div class="row">
@@ -1123,19 +1114,19 @@
                                 <li class="single-info-item">
                                     <img src="../assets/img/icon/location.png" alt="icon">
                                     <div class="details">
-                                        4920 Trails End Road Ft  United States, FL 33311
+                                        Туристическая деревня "Кургала", Ленинградская область, Кингисепский район, д. Косколово
                                     </div>
                                 </li>
                                 <li class="single-info-item">
                                     <img src="../assets/img/icon/envelope.png" alt="icon">
                                     <div class="details">
-                                        ordernow@foodka.com
+                                        info@kurgala.com
                                     </div>
                                 </li>
                                 <li class="single-info-item">
                                     <img src="../assets/img/icon/phone.png" alt="icon">
                                     <div class="details">
-                                        +997 509 153 849
+                                        +7 (812) 648-40-00
                                     </div>
                                 </li>
                             </ul>
@@ -1143,40 +1134,16 @@
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="footer-widget widget widget_link">
-                            <h4 class="widget-title">Hot Menu</h4>
+                            <h4 class="widget-title">Часы работы</h4>
                             <ul>
-                                <li><a href="menu-list.html">Burger King Whopper</a></li>
-                                <li><a href="menu-list.html">Five Guys Cheeseburger</a></li>
-                                <li><a href="menu-list.html">KFC Original Recipe Chicken</a></li>
-                                <li><a href="menu-list.html">Wendy's Frosty</a></li>
-                                <li><a href="menu-list.html">McDonald's Happy Meal</a></li>
-                                <li><a href="menu-list.html">Domino's Pepperoni Pizza</a></li>
+                                <li>Понедельник :    08.00-24.00</li>
+                                <li>Вторник : 08.00-24.00</li>
+                                <li>Среда : 08.00-24.00</li>
+                                <li>Четверг : 08.00-24.00</li>
+                                <li>Пятница  : 08.00-24.00</li>
+                                <li>Суббота  : 08.00-24.00</li>
+                                <li>Воскресенье : 08:00-23.00</li>
                             </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-widget widget widget_link">
-                            <h4 class="widget-title">Opening Hours</h4>
-                            <ul>
-                                <li>Monday : 09.00am-10.00pm</li>
-                                <li>Tuesday : 09.00am-10.00pm</li>
-                                <li>Wednesday : 09.00am-10.00pm</li>
-                                <li>Thursday : 09.00am-10.00pm</li>
-                                <li>Friday  : 09.00am-10.00pm</li>
-                                <li>Saturday & Sunday : <span>Closed</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-widget widget widget-newsletter">
-                            <h4 class="widget-title">Newsletter</h4>
-                            <p>Subscribe to get the latest news, update and offer information. Don't worry, we won't send spam!</p>
-                            <form class="newsletter-form">
-                                <div class="form-group">
-                                    <input type="email" placeholder="Enter e-mail">
-                                </div>
-                                <button class="submit-btn" type="submit"><i class="ri-arrow-right-line"></i></button>
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -1187,16 +1154,8 @@
                 <div class="row align-items-center">
                     <div class="col-md-6 text-md-start text-center">
                         <div class="copyright-area">
-                            <p>© 2021 Foodka. All Rights Reserved by Themefie</p>
+                            <p>© 2023. По вопросам пишите info@kurgala.com</p>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <ul class="social-area text-md-end text-center mt-md-0 mt-2">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li> 
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li> 
-                            <li><a href="#"><i class="fab fa-behance"></i></a></li> 
-                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li> 
-                        </ul>
                     </div>
                 </div>
             </div>
