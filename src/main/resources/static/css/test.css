@@ -1,0 +1,50 @@
+.line-height {
+    line-height: 1.15;
+}
+.font-size {
+    font-size: 1px;
+}
+p{
+-webkit-text-size-adjust:100%;
+}
+.font-family {
+    font-family: CorsicaLX, Helvetica, sans-serif;
+}
+.swiper-theme-color {
+    color: #007aff;
+}
+
+.text-primary {
+    color: #7e2832;
+}
+.animate-duration {
+    animation-duration: 1s;
+}
+.animate-delay {
+    animation-delay: 1s;
+}
+.animate-repeat {
+    animation-iteration-count: 1;
+}
+.color {
+    color: #36242a;
+}
+.transform-origin {
+    transform-origin: 50% 50%;
+}
+.webkit-tap-highlight-color{
+color: rgba(0, 0, 0, 0);
+}
+.position {
+    position: static;
+}
+.z-index {
+    z-index: 11;
+}
+.width {
+    width: 82.353vw;
+}
+.top{
+    top: 185px;
+}
+
